@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  }
+
+body {
+background-color: #f7f5fa;
+color: #333;
+}
+
+header {
+background-color: #2b064d;
+color: white;
+padding: 20px 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+font-family: 'DM Serif Display', serif;
+font-size: 32px;
+font-weight: 400;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 25px;
+font-size: 16px;
+font-weight: 600;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+.banner {
+height: 350px;
+background-image: url("imagem servicos.png");
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+padding: 20px;
+}
+
+.banner h2 {
+font-family: 'DM Serif Display', serif;
+font-size: 36px;
+margin-bottom: 15px;
+font-weight: 400;
+}
+
+.banner p {
+width: 70%;
+line-height: 1.6;
+font-size: 16px;
+}
+
+button,
+input[type="submit"] {
+background-color: #4a087c;
+color: white;
+border: none;
+border-radius: 6px;
+padding: 12px 25px;
+margin-top: 20px;
+cursor: pointer;
+font-family: 'Nunito', sans-serif;
+font-weight: 700;
+}
+
+button:hover,
+input[type="submit"]:hover {
+background-color: #320557;
+}
+
+.home,
+.inicio,
+.sobre,
+.servicos {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+padding: 50px;
+}
+
+.card {
+width: 300px;
+min-height: 280px;
+background-color: white;
+border: 1px solid #ddd5e5;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(43, 6, 77, 0.15);
+padding: 25px;
+text-align: center;
+}
+
+.card img {
+width: 100%;
+border-radius: 8px;
+}
+
+.card h2 {
+font-family: 'DM Serif Display', serif;
+color: #4a087c;
+margin-bottom: 20px;
+font-size: 27px;
+font-weight: 400;
+}
+
+.card p {
+font-family: 'Nunito', sans-serif;
+font-size: 16px;
+line-height: 1.7;
+color: #555;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.contato {
+display: flex;
+justify-content: center;
+padding: 50px;
+}
+
+.contato .card {
+width: 400px;
+}
+
+form input,
+form textarea {
+width: 100%;
+padding: 12px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-family: 'Nunito', sans-serif;
+}
+
+footer {
+background-color: #2b064d;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 5px;
+}
